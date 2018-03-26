@@ -26,6 +26,7 @@ LOCAL_C_INCLUDES:= \
       frameworks/native/include
 
 LOCAL_SHARED_LIBRARIES :=    \
+        liblog               \
         libbinder            \
         libutils             \
         libcutils            \
